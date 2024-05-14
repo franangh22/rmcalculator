@@ -21,6 +21,6 @@ una de las más utilizadas y precisas para calcular la RM:
 
 ## ¡Comienza Ahora!
 
-Visita el ghpages y descubre tu RM!
+Visita  ![Calculator](http://calcrm.free.nf/index.html) y descubre tu RM!
 
 ## Copyright © 2024 Franco anghilante. Todos los derechos reservados.
