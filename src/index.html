@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="una web que ofrece una calculadora para ver tu RM"
+    />
+    <meta
+      name="keywords"
+      content="gimnasio, entrenamiento, fitness, salud, bienestar, ejercicio, clases, personalizado"
+    />
+    <meta name="author" content="RM CALC" />
+    <title>Calculadora de RM</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <script>
+      document.addEventListener("visibilitychange", function () {
+        if (document.hidden) {
+          document.title = "Revienta el pecho!!💪🏻";
+        } else {
+          document.title = "Calcular RM🖤";
+        }
+      });
+    </script>
+
+    <nav class="navbar">
+      <div class="navbar-left">
+        <span class="navbar-brand">Calcular RM</span>
+      </div>
+      <div class="navbar-right">
+        <button id="mode-toggle">Modo Oscuro</button>
+        <a class="btn" href="html/consejos.html">Hipertrofia❤️</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="form-wrapper">
+        <h1>Calculadora de 1RM</h1>
+        <form id="rmForm">
+          <div class="input-group">
+            <label for="weight">Peso (kg):</label>
+            <input
+              type="number"
+              id="weight"
+              required
+              autofocus
+              placeholder="Peso"
+              title="Peso"
+            />
+          </div>
+          <div class="input-group">
+            <label for="reps">Repeticiones:</label>
+            <input
+              type="number"
+              id="reps"
+              required
+              autofocus
+              placeholder="Repeticiones"
+              title="Repeticiones"
+            />
+          </div>
+          <button type="submit" title="Calcular">Calcular</button>
+        </form>
+        <div id="result"></div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>
+        <span>&copy; Derechos de autor - Anghilante Franco</span> -
+        <a
+          title="Link externo"
+          href="https://en.wikipedia.org/wiki/One-repetition_maximum"
+          target="_blank"
+          >Información de la formula</a
+        >
+      </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

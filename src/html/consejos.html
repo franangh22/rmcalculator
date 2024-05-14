@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="una web que ofrece una calculadora para ver tu RM"
+    />
+    <meta
+      name="keywords"
+      content="gimnasio, entrenamiento, fitness, salud, bienestar, ejercicio, clases, personalizado"
+    />
+    <meta name="author" content="RM CALC" />
+    <title>Consejos</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <span class="navbar-brand">Calcular RM</span>
+      </div>
+      <div class="navbar-right">
+        <button id="mode-toggle">Modo Oscuro</button>
+        <a class="btn" href="../index.html">Inicio🖤</a>
+      </div>
+    </nav>
+
+    <script>
+      document.addEventListener("visibilitychange", function () {
+        if (document.hidden) {
+          document.title = "Revienta el pecho!!💪🏻";
+        } else {
+          document.title = "Consejos!🖤";
+        }
+      });
+    </script>
+
+    <script src="../js/script.js"></script>
+
+    <div class="container">
+      <h1>Consejos para Maximizar la Hipertrofia Muscular</h1>
+      <div class="tips">
+        <ol>
+          <li>Entrenamiento con Pesas</li>
+          <li>Enfoque en la Tensión Mecánica</li>
+          <li>Varía tus Rutinas</li>
+          <li>Prioriza la Progresión del Peso</li>
+          <li>Descansa y Recupérate</li>
+          <li>Nutrición Balanceada</li>
+          <li>Consistencia</li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
